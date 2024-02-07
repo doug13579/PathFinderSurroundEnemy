@@ -1,0 +1,1439 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "3fcffda9-5d82-47bf-b086-b6ddd344878f",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "pathfinder 11-16-22",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Angle",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ToggleSides",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "4c71c9ca-18db-41e1-8adb-9f39aaf32294",
+          "width": 0,
+          "x": 411.0005798339844,
+          "y": 81.10436248779297,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "236d172f-fd73-4a9b-887a-db4658f82b58",
+          "width": 0,
+          "x": 404,
+          "y": 223,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "f528ecde-2c41-44de-ab44-7dcf20d8e2a0",
+          "width": 0,
+          "x": 270,
+          "y": 322,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "2c59b511-2496-4125-a779-b87af06906d3",
+          "width": 0,
+          "x": 258,
+          "y": 149,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "b5d461c1-7031-4153-9ef9-c62a671d58f8",
+          "width": 0,
+          "x": 418,
+          "y": 371,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "f5836d9c-658d-4276-bb0e-13fd4c93076b",
+          "width": 0,
+          "x": 182,
+          "y": 221,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "8db7d6c5-6114-41dc-977a-45df8b2515f9",
+          "width": 0,
+          "x": 417,
+          "y": 147,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Troop",
+          "persistentUuid": "d486a603-2641-47bb-9805-b9b5b42e37d5",
+          "width": 0,
+          "x": 352.0005798339844,
+          "y": 103.10436248779297,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AddTroop",
+          "persistentUuid": "62457c11-f18d-4a9a-b192-ff593c4ee5a4",
+          "width": 0,
+          "x": 43,
+          "y": 543,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "fd9d044f-a111-4bdd-9ba1-24c325b19922",
+          "width": 0,
+          "x": 463,
+          "y": 409,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "2b1d4208-caf4-4dc7-9af0-8756bab5ae95",
+          "width": 0,
+          "x": 318,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "be6f0cdc-ec92-4517-b640-f0901da64995",
+          "width": 0,
+          "x": 325,
+          "y": 479,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "871a0597-ddeb-44c0-8228-5e382eac36e0",
+          "width": 0,
+          "x": 568,
+          "y": 309,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "ec931307-5ec7-4f6c-850e-e8df64ef3578",
+          "width": 0,
+          "x": 326,
+          "y": 145,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4b5ea192-6222-4aea-beac-b4577f4c7c3e",
+          "width": 0,
+          "x": 455,
+          "y": 217,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Troop",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "IsPlaced",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 800,
+              "maxSpeed": 800,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 15,
+              "cellWidth": 15,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "rotateObject": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16.00058937072754,
+                        "y": 16.10436248779297
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NewSprite22",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "impassable": false,
+              "cost": 2
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 10,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TargetText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AddTroop",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[Add Troop]",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "impassable": false,
+              "cost": 2
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Troop"
+          },
+          {
+            "objectName": "NewSprite22"
+          },
+          {
+            "objectName": "TargetText"
+          },
+          {
+            "objectName": "AddTroop"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "At the begining of the scene, ad an ID to troop sprites",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "i",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Troop",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "ID",
+                        "=",
+                        "Variable(i)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "On left button down, add a target object, place and number text objects around the target, alternating sides.",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "troopIsMoving",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "AddTroop",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite22",
+                    "MouseX()",
+                    "MouseY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "troopIsMoving",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "i",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Angle",
+                    "=",
+                    "AngleBetweenPositions(Troop.CenterX(), Troop.CenterY(), NewSprite22.CenterX(), NewSprite22.CenterY())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleSides",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpacingAngle",
+                    "=",
+                    "360/SceneInstancesCount(Troop)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Troop",
+                    "IsPlaced",
+                    "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "The toogleSides variable flips between 1 and -1, so the troops alternate, the first object is placed on the farthest spot from the original location. My whole purpose is to prevent the troops from bunching up."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "My concept for placing the objects around the target. Get the angle between current position and target (NewSprite22)\nInvert the troops ID with instanceCount-current ID-1\nI flipped the ID so it's first in but then last out. Now, that I'm using the Closest Object, this is probably no long needed\nput the troop around the object from the back side with steps of Variable SpacingAngle (360/# of instance)\nI increase I by .5 and use int() to cutoff the fraction. So, it's basically the same value 2 times in a row. I flip the var ToggleSides between 1 and -1 so it's say 90 degrees once and -90 the next time. This cause it to pick alternating sides."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Troop",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "ToggleSides",
+                        "*",
+                        "-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "TargetText",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "ID",
+                        "=",
+                        "Variable(i)*2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "=",
+                        "TargetText.VariableString(ID)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "ID",
+                        "=",
+                        "SceneInstancesCount(Troop)-Troop.Variable(ID)-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreAutourPos"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "MouseX()",
+                        "MouseY()",
+                        "40",
+                        "int(Variable(i)) * Variable(SpacingAngle)* Variable(ToggleSides)+ Variable(Angle)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        ".5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Variable i is an index for which TargetText object to go to."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"delay\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "The timer is to create a space between the troops, every # seconds pick the troop closest to the target, make sure they're not already placed or moving. placed is used to track moving or stopped",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"delay\"",
+                    ">",
+                    ".1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Troop",
+                    "IsPlaced",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "assign a newID to troop to save it's target ID"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "NewSprite22.CenterX()",
+                        "NewSprite22.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "ID",
+                        "=",
+                        "Variable(i)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"delay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "Pathfinding",
+                        "",
+                        "TargetText.CenterX()",
+                        "TargetText.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "IsMoving",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "IsPlaced",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "NewID",
+                        "=",
+                        "TargetText.Variable(ID)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Check if troop has reached it's pathfing destination and is still moving.",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::DestinationReached"
+                  },
+                  "parameters": [
+                    "Troop",
+                    "Pathfinding"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Troop",
+                    "IsMoving",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "The pathfinding beahavior doesn't place the objects in the exact location that it targets. Go through and move the object to the exact location, delete the targetText object, set Object Boolean IsMoving to false"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Troop",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        "ID",
+                        "=",
+                        "Troop.Variable(NewID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "TargetText",
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Troop",
+                        "IsMoving",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TargetText",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Check if all troops are moved by checking if all TargetText objects are deleted. Set troopIsMoving to false to allow more mouse clicks",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "i",
+                    "=",
+                    "SceneInstancesCount(Troop)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "SceneInstancesCount(TargetText)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"delay\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite22",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "troopIsMoving",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "This just adds another Troop sprite assigining the ID to the SceneInstanceCount -1, troops can only be added when not moving",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "AddTroop",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "troopIsMoving",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Troop",
+                    "AddTroop.CenterX() + 100",
+                    "AddTroop.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Troop",
+                    "ID",
+                    "=",
+                    "SceneInstancesCount(Troop)-1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 9010136,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
